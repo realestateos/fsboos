@@ -1,0 +1,17 @@
+# FSBOOS - Redirects
+# Cloudflare Pages Redirect Rules
+
+# Redirect HTTP to HTTPS
+http://fsboos.com/* https://fsboos.com/:splat 301
+
+# Redirect www to non-www
+https://www.fsboos.com/* https://fsboos.com/:splat 301
+
+# Blog redirects (handle common typos)
+/blog/how-to-sell-without-realtor /blog/how-to-sell-home-without-realtor-arizona.html 301
+/blog/arizona-paperwork /blog/arizona-fsbo-paperwork-requirements.html 301
+/blog/closing-costs /blog/fsbo-closing-costs-arizona.html 301
+/blog/phoenix /blog/sell-home-without-realtor-phoenix.html 301
+
+# 404 fallback
+/* /index.html 404
