@@ -3,43 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FSBOOS | Sell Your Arizona Home Without a Realtor - $2,995 Flat Fee</title>
-    <meta name="description" content="Sell your Arizona home without a real estate agent. FSBOOS helps Arizona homeowners save thousands with flat fee MLS listings, professional photos, and full support. Only $2,995 total.">
-    <meta name="keywords" content="sell home without realtor Arizona, FSBO Arizona, flat fee MLS Arizona, sell house by owner Phoenix, how to sell home without real estate agent, Arizona FSBO listing service, sell home without agent Tucson, Mesa for sale by owner, Scottsdale FSBO">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="FSBOOS | Sell Your Arizona Home Without a Realtor - $2,995 Flat Fee">
-    <meta property="og:description" content="Arizona's #1 FSBO platform. Sell without an agent, save $15,000+ in commissions. Flat fee MLS listing + full support.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fsboos.com">
-    
-    <!-- Schema.org LocalBusiness -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "RealEstateAgent",
-        "name": "FSBOOS - Arizona Flat Fee MLS",
-        "description": "Flat fee MLS listing service for Arizona homeowners selling without a realtor",
-        "url": "https://fsboos.com",
-        "areaServed": {
-            "@type": "State",
-            "name": "Arizona"
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "addressRegion": "AZ",
-            "addressCountry": "US"
-        },
-        "priceRange": "$$",
-        "telephone": "+1-480-555-0199"
-    }
-    </script>
+    <title>FSBOOS | The Operating System for Real Estate - Connect Agents & Sellers</title>
+    <meta name="description" content="FSBOOS connects Arizona home sellers with discount real estate agents. Sellers save thousands. Agents get white-label tools to build their own discount brokerage.">
+    <meta name="keywords" content="discount real estate agents Arizona, flat fee MLS Arizona, white label real estate platform, FSBO Arizona, discount brokerage Arizona, real estate agent tools, sell home save commission">
     
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
             <a href="/" class="logo">
@@ -47,395 +18,363 @@
                 <span class="logo-text">FSBO<span class="highlight">OS</span></span>
             </a>
             <div class="nav-links">
-                <a href="/blog.html">FSBO Guide</a>
-                <a href="#pricing">Pricing</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="#faq">FAQ</a>
-                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="/for-sellers.html">For Sellers</a>
+                <a href="/for-agents.html">For Agents</a>
+                <a href="/platform.html">Platform</a>
+                <a href="/blog.html">Resources</a>
+                <a href="/#contact" class="btn btn-primary">Get Started</a>
             </div>
             <button class="mobile-menu-toggle" aria-label="Open menu">☰</button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-badge">🌵 Arizona's #1 FSBO Platform</div>
-                <h1>Sell Your Arizona Home <span class="highlight">Without a Realtor</span></h1>
-                <p class="hero-subtitle">Keep thousands more from your sale. Professional MLS listing, expert support, and everything you need to sell by owner in Phoenix, Tucson, Mesa, Scottsdale, and all of Arizona.</p>
+                <div class="hero-badge">🚀 The Real Estate Operating System</div>
+                <h1>The Platform That Connects <span class="highlight">Arizona Agents</span> & <span class="highlight">Home Sellers</span></h1>
+                <p class="hero-subtitle">FSBOOS is the infrastructure powering Arizona's discount real estate revolution. Sellers save thousands. Agents build their own white-labeled brokerage.</p>
                 
-                <div class="savings-calculator">
-                    <h3>See How Much You'll Save</h3>
-                    <div class="calculator-row">
-                        <label>Your Home Value:</label>
-                        <input type="range" id="homeValue" min="200000" max="2000000" step="25000" value="500000">
-                        <span class="value-display" id="valueDisplay">$500,000</span>
+                <div class="audience-cards">
+                    <div class="audience-card seller">
+                        <div class="audience-icon">🏡</div>
+                        <h3>For Home Sellers</h3>
+                        <p>Sell your Arizona home and save $15,000-$25,000 in commissions</p>
+                        <ul>
+                            <li>✓ Connect with discount agents</li>
+                            <li>✓ Flat fee MLS listings</li>
+                            <li>✓ Full service at 1-2% commission</li>
+                        </ul>
+                        <a href="/for-sellers.html" class="btn btn-primary btn-full">Sell Your Home</a>
                     </div>
-                    <div class="savings-result">
-                        <div class="savings-item">
-                            <span class="label">Traditional 6% Commission</span>
-                            <span class="cost" id="tradCost">$30,000</span>
-                        </div>
-                        <div class="savings-item highlight">
-                            <span class="label">FSBOOS Flat Fee</span>
-                            <span class="cost" id="fsboCost">$2,995</span>
-                        </div>
-                        <div class="savings-total">
-                            <span class="label">Your Savings</span>
-                            <span class="amount" id="savingsAmount">$27,005</span>
-                        </div>
+                    
+                    <div class="audience-card agent">
+                        <div class="audience-icon">👔</div>
+                        <h3>For Real Estate Agents</h3>
+                        <p>Launch your own white-labeled discount brokerage</p>
+                        <ul>
+                            <li>✓ Your branded website</li>
+                            <li>✓ Complete tech stack</li>
+                            <li>✓ Lead generation system</li>
+                        </ul>
+                        <a href="/for-agents.html" class="btn btn-secondary btn-full">Start Your Brokerage</a>
                     </div>
-                </div>
-
-                <div class="hero-ctas">
-                    <a href="#pricing" class="btn btn-primary btn-large">Start Selling - $2,995 Flat Fee</a>
-                    <a href="tel:+14805550199" class="btn btn-secondary btn-large">📞 Call (480) 555-0199</a>
-                </div>
-                
-                <div class="trust-badges">
-                    <div class="badge">⭐ 4.9/5 Rating</div>
-                    <div class="badge">✓ 1,200+ Homes Sold</div>
-                    <div class="badge">🔒 MLS Listed in 24hrs</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section id="how-it-works" class="how-it-works">
+    <section class="how-it-works">
         <div class="container">
-            <h2 class="section-title">How to Sell Your Home Without a Real Estate Agent in Arizona</h2>
-            <p class="section-subtitle">Our proven 4-step process has helped over 1,200 Arizona homeowners sell successfully</p>
+            <h2 class="section-title">How FSBOOS Works</h2>
             
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">1</div>
-                    <h3>List on Arizona MLS</h3>
-                    <p>We list your home on the Arizona Regional MLS (ARMLS), reaching 20,000+ buyer agents. Same exposure as listings paying 6% commission.</p>
-                    <ul class="step-features">
-                        <li>✓ Appear on Zillow, Realtor.com, Redfin</li>
-                        <li>✓ 35+ real estate websites</li>
-                        <li>✓ Listed within 24 hours</li>
-                    </ul>
+            <div class="platform-flow">
+                <div class="flow-step">
+                    <div class="flow-number">1</div>
+                    <h3>Sellers List for Free</h3>
+                    <p>Arizona homeowners create free profiles and list their selling needs</p>
                 </div>
-                
-                <div class="step-card">
-                    <div class="step-number">2</div>
-                    <h3>Professional Marketing</h3>
-                    <p>High-quality photos, compelling descriptions, and yard signs that attract serious Arizona buyers.</p>
-                    <ul class="step-features">
-                        <li>✓ Professional photography included</li>
-                        <li>✓ Custom yard sign + lockbox</li>
-                        <li>✓ Digital marketing package</li>
-                    </ul>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="flow-number">2</div>
+                    <h3>Agents Connect</h3>
+                    <p>Discount agents on the platform make offers: flat fee, 1%, or hybrid services</p>
                 </div>
-                
-                <div class="step-card">
-                    <div class="step-number">3</div>
-                    <h3>Manage Showings & Offers</h3>
-                    <p>We handle buyer agent calls, schedule showings, and help you evaluate offers. You stay in control.</p>
-                    <ul class="step-features">
-                        <li>✓ Offer negotiation support</li>
-                        <li>✓ Showing coordination</li>
-                        <li>✓ Contract review guidance</li>
-                    </ul>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="flow-number">3</div>
+                    <h3>Sellers Choose</h3>
+                    <p>Compare agent proposals and select the best fit for their needs</p>
                 </div>
-                
-                <div class="step-card">
-                    <div class="step-number">4</div>
-                    <h3>Close & Save Thousands</h3>
-                    <p>We guide you through closing with Arizona title companies. Keep the commission you'd normally pay.</p>
-                    <ul class="step-features">
-                        <li>✓ Contract-to-close support</li>
-                        <li>✓ Title company coordination</li>
-                        <li>✓ Average savings: $18,000</li>
-                    </ul>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="flow-number">4</div>
+                    <h3>Everyone Wins</h3>
+                    <p>Sellers save thousands. Agents close more deals. FSBOOS powers it all.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section class="stats">
         <div class="container">
-            <h2 class="section-title">Arizona Flat Fee MLS Pricing</h2>
-            <p class="section-subtitle">Everything you need to sell without a realtor. No hidden fees, no surprises.</p>
-            
-            <div class="pricing-card featured">
-                <div class="pricing-badge">Most Popular</div>
-                <h3>FSBOOS Complete</h3>
-                <div class="pricing-amount">
-                    <span class="currency">$</span>
-                    <span class="price">2,995</span>
-                    <span class="period">flat fee</span>
+            <div class="stats-grid">
+                <div class="stat">
+                    <span class="stat-number">$28M</span>
+                    <span class="stat-label">Seller Savings</span>
                 </div>
-                <p class="pricing-note">Only pay when your home sells. No upfront costs.</p>
-                
-                <ul class="pricing-features">
-                    <li><strong>✓ Arizona MLS Listing</strong> - ARMLS + 35+ sites</li>
-                    <li><strong>✓ Professional Photography</strong> - 25+ HDR photos</li>
-                    <li><strong>✓ Yard Sign & Lockbox</strong> - Delivered to your door</li>
-                    <li><strong>✓ Showing Coordination</strong> - We schedule everything</li>
-                    <li><strong>✓ Offer Negotiation</strong> - Expert guidance</li>
-                    <li><strong>✓ Contract Review</strong> - Closing support</li>
-                    <li><strong>✓ Digital Marketing</strong> - Social media + email</li>
-                    <li><strong>✓ 6-Month Listing</strong> - Unlimited changes</li>
-                </ul>
-                
-                <div class="pricing-compare">
-                    <div class="compare-item">
-                        <span>Traditional 6% Agent</span>
-                        <span class="strikethrough">$30,000</span>
-                    </div>
-                    <div class="compare-item savings">
-                        <span>Your Savings</span>
-                        <span class="highlight">$27,005</span>
-                    </div>
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Active Agents</span>
                 </div>
-                
-                <a href="#contact" class="btn btn-primary btn-large btn-full">Get Started - $2,995 Flat Fee</a>
-            </div>
-            
-            <div class="pricing-terms">
-                <p>📍 Serving Phoenix, Tucson, Mesa, Scottsdale, Chandler, Gilbert, Glendale, Tempe, Peoria, Surprise, and all of Arizona</p>
+                <div class="stat">
+                    <span class="stat-number">2,400+</span>
+                    <span class="stat-label">Homes Sold</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4.9★</span>
+                    <span class="stat-label">Average Rating</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Why FSBO in Arizona -->
-    <section class="why-fsbo">
+    <section class="features">
         <div class="container">
-            <h2 class="section-title">Why Sell Without a Real Estate Agent in Arizona?</h2>
+            <h2 class="section-title">One Platform, Two Powerful Solutions</h2>
             
+            <div class="features-grid">
+                <div class="feature-block">
+                    <h3>🎯 For Sellers: Maximum Savings</h3>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <h4>Compare Discount Agents</h4>
+                            <p>Get multiple offers from Arizona agents competing for your listing with discounted rates</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Flat Fee MLS Options</h4>
+                            <p>List on the Arizona MLS for a flat fee, pay nothing until you sell</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Full Service, Less Commission</h4>
+                            <p>Get traditional agent services at 1-2% instead of 6%</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>No Obligation</h4>
+                            <p>Free to list, free to compare, only pay when you choose an agent</p>
+                        </div>
+                    </div>
+                    <a href="/for-sellers.html" class="btn btn-primary">Explore Seller Options</a>
+                </div>
+                
+                <div class="feature-block">
+                    <h3>🚀 For Agents: White-Label Power</h3>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <h4>Your Branded Website</h4>
+                            <p>Instant white-labeled site: YourName.FSBOOS.com or custom domain</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Lead Generation Engine</h4>
+                            <p>Built-in CRM, automated follow-ups, and seller matching algorithm</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Complete Tech Stack</h4>
+                            <p>MLS integration, e-signatures, transaction management, marketing tools</p>
+                        </div>
+                        <div class="feature-item">
+                            <h4>Grow Your Business</h4>
+                            <p>Access to FSBOOS seller network + your own independent branding</p>
+                        </div>
+                    </div>
+                    <a href="/for-agents.html" class="btn btn-secondary">See Agent Features</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-comparison">
+        <div class="container">
+            <h2 class="section-title">Save More With FSBOOS</h2>
+            
+            <div class="comparison-table">
+                <div class="comparison-header">
+                    <div class="col service">Service Model</div>
+                    <div class="col commission">Commission</div>
+                    <div class="col savings">Your Cost (on $450k home)</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="col service">Traditional Agent</div>
+                    <div class="col commission">6%</div>
+                    <div class="col savings high">$27,000</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="col service">Discount Agent via FSBOOS</div>
+                    <div class="col commission">1-2%</div>
+                    <div class="col savings med">$4,500 - $9,000</div>
+                </div>
+                
+                <div class="comparison-row featured">
+                    <div class="col service">Flat Fee via FSBOOS</div>
+                    <div class="col commission">Flat Fee</div>
+                    <div class="col savings low">$2,995 - $4,995</div>
+                </div>
+            </div>
+            
+            <p class="comparison-note">FSBOOS agents are independent professionals using our platform to offer competitive rates</p>
+        </div>
+    </section>
+
+    <section class="agent-showcase">
+        <div class="container">
+            <h2 class="section-title">Top-Rated Arizona Agents on FSBOOS</h2>
+            <p class="section-subtitle">These agents use FSBOOS to offer better rates while delivering full service</p>
+            
+            <div class="agents-grid">
+                <div class="agent-card">
+                    <div class="agent-photo">👤</div>
+                    <h3>Sarah Martinez</h3>
+                    <p class="agent-location">Phoenix & Scottsdale</p>
+                    <div class="agent-rating">⭐ 4.9 (127 reviews)</div>
+                    <p class="agent-commission">1.5% Listing Commission</p>
+                    <p class="agent-bio">Full-service agent helping sellers save since 2019</p>
+                    <a href="/agent/sarah-martinez.html" class="btn btn-primary btn-small">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">👤</div>
+                    <h3>David Chen</h3>
+                    <p class="agent-location">Tucson & Oro Valley</p>
+                    <div class="agent-rating">⭐ 4.8 (89 reviews)</div>
+                    <p class="agent-commission">$3,500 Flat Fee</p>
+                    <p class="agent-bio">Former top producer at Keller Williams</p>
+                    <a href="/agent/david-chen.html" class="btn btn-primary btn-small">View Profile</a>
+                </div>
+                
+                <div class="agent-card">
+                    <div class="agent-photo">👤</div>
+                    <h3>Jennifer Walsh</h3>
+                    <p class="agent-location">Mesa, Gilbert, Chandler</p>
+                    <div class="agent-rating">⭐ 5.0 (156 reviews)</div>
+                    <p class="agent-commission">1% Listing Commission</p>
+                    <p class="agent-bio">Specialist in East Valley family homes</p>
+                    <a href="/agent/jennifer-walsh.html" class="btn btn-primary btn-small">View Profile</a>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="/agents.html" class="btn btn-secondary">View All 150+ Agents</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="white-label-preview">
+        <div class="container">
             <div class="two-column">
                 <div class="column">
-                    <h3>💰 Keep More of Your Equity</h3>
-                    <p>The average Arizona home sells for $450,000. A traditional 6% commission costs $27,000. With FSBOOS, you pay just $2,995 — keeping over $24,000 in your pocket.</p>
+                    <h2>Launch Your Own Discount Brokerage</h2>
+                    <p>FSBOOS gives agents everything needed to run an independent discount real estate business. Your brand, your rates, our technology.</p>
                     
-                    <h3>📱 Maximum Exposure</h3>
-                    <p>Your listing appears on the same sites buyers use: Zillow, Realtor.com, Redfin, and 35+ others. The Arizona Regional MLS reaches every active buyer agent in the state.</p>
+                    <ul class="feature-checklist">
+                        <li>✓ Custom branded website in 24 hours</li>
+                        <li>✓ Integrated MLS for Arizona listings</li>
+                        <li>✓ Automated lead capture & CRM</li>
+                        <li>✓ E-signature & document management</li>
+                        <li>✓ Marketing automation tools</li>
+                        <li>✓ Transaction coordination support</li>
+                        <li>✓ Commission tracking & reporting</li>
+                    </ul>
                     
-                    <h3>🏜️ Arizona Market Advantage</h3>
-                    <p>Arizona's hot market means homes sell fast. In 2024, the average FSBO home in Phoenix sold in just 18 days. You don't need to pay 6% for quick results.</p>
+                    <a href="/for-agents.html" class="btn btn-primary btn-large">See Agent Plans</a>
                 </div>
                 
-                <div class="column">
-                    <h3>✅ Full Control</h3>
-                    <p>You set the price, choose showings, and make all decisions. We provide the tools and support — you stay in the driver's seat.</p>
-                    
-                    <h3>📋 Legal Protection</h3>
-                    <p>Arizona requires specific disclosures and contracts. We provide all state-required forms and guide you through compliance.</p>
-                    
-                    <h3>🤝 Expert Support</h3>
-                    <p>Our Arizona-based team knows the local market. From offer negotiation to closing coordination, we're with you every step.</p>
+                <div class="column preview-mockup">
+                    <div class="website-preview">
+                        <div class="browser-bar">
+                            <span class="browser-dot red"></span>
+                            <span class="browser-dot yellow"></span>
+                            <span class="browser-dot green"></span>
+                            <span class="browser-url">sarahsells.az.fsboos.com</span>
+                        </div>
+                        <div class="preview-content">
+                            <h4>Sarah Martinez Realty</h4>
+                            <p>Sell for 1.5% - Full Service</p>
+                            <div class="preview-btn">Get Free Home Valuation</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">Arizona Homeowners Who Saved Thousands</h2>
+            <h2 class="section-title">Success Stories</h2>
             
             <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"Sold our Scottsdale home in 12 days and saved $31,000. FSBOOS handled everything from the MLS listing to negotiating with the buyer's agent. Worth every penny."</p>
+                <div class="testimonial-card seller-story">
+                    <div class="testimonial-badge">Seller</div>
+                    <p>"We saved $22,000 selling our Phoenix home through FSBOOS. Connected with Jennifer who charged 1% and gave us better service than our previous agent who wanted 6%."</p>
                     <div class="testimonial-author">
-                        <strong>Jennifer M.</strong>
-                        <span>Scottsdale, AZ • Sold for $685,000</span>
+                        <strong>Michael & Lisa R.</strong>
+                        <span>Sold in Scottsdale for $580,000</span>
                     </div>
                 </div>
                 
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"I was nervous about selling without a realtor, but the FSBOOS team walked me through every step. Professional photos made a huge difference. Sold in 3 weeks!"</p>
+                <div class="testimonial-card agent-story">
+                    <div class="testimonial-badge">Agent</div>
+                    <p>"FSBOOS transformed my business. I launched my own discount brokerage with my branding and went from 12 deals/year to 45. The white-label tools are incredible."</p>
+                    <div class="testimonial-author">
+                        <strong>David Chen</strong>
+                        <span>Tucson Discount Realty</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card seller-story">
+                    <div class="testimonial-badge">Seller</div>
+                    <p>"I was skeptical about 'discount' agents, but the FSBOOS platform let me see reviews and past sales. Found an amazing agent who sold our Mesa home in 9 days."</p>
                     <div class="testimonial-author">
                         <strong>Robert K.</strong>
-                        <span>Mesa, AZ • Sold for $420,000</span>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"As a Phoenix investor, I've used FSBOOS for 4 properties. The flat fee model is perfect for experienced sellers. Great support and huge savings."</p>
-                    <div class="testimonial-author">
-                        <strong>David T.</strong>
-                        <span>Phoenix, AZ • 4 properties sold</span>
+                        <span>Sold in Mesa for $425,000</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Cities We Serve -->
-    <section class="cities">
+    <section class="faq">
         <div class="container">
-            <h2 class="section-title">Sell Without a Realtor in These Arizona Cities</h2>
-            
-            <div class="cities-grid">
-                <a href="/blog/sell-home-without-realtor-phoenix.html" class="city-link">Phoenix</a>
-                <a href="/blog/sell-home-without-realtor-tucson.html" class="city-link">Tucson</a>
-                <a href="/blog/sell-home-without-realtor-mesa.html" class="city-link">Mesa</a>
-                <a href="/blog/sell-home-without-realtor-scottsdale.html" class="city-link">Scottsdale</a>
-                <a href="/blog/sell-home-without-realtor-chandler.html" class="city-link">Chandler</a>
-                <a href="/blog/sell-home-without-realtor-gilbert.html" class="city-link">Gilbert</a>
-                <a href="/blog/sell-home-without-realtor-glendale.html" class="city-link">Glendale</a>
-                <a href="/blog/sell-home-without-realtor-tempe.html" class="city-link">Tempe</a>
-                <a href="/blog/sell-home-without-realtor-peoria.html" class="city-link">Peoria</a>
-                <a href="/blog/sell-home-without-realtor-surprise.html" class="city-link">Surprise</a>
-                <a href="/blog/sell-home-without-realtor-goodyear.html" class="city-link">Goodyear</a>
-                <a href="/blog/sell-home-without-realtor-buckeye.html" class="city-link">Buckeye</a>
-                <a href="/blog/sell-home-without-realtor-queen-creek.html" class="city-link">Queen Creek</a>
-                <a href="/blog/sell-home-without-realtor-sierra-vista.html" class="city-link">Sierra Vista</a>
-                <a href="/blog/sell-home-without-realtor-casa-grande.html" class="city-link">Casa Grande</a>
-                <a href="/blog/sell-home-without-realtor-yuma.html" class="city-link">Yuma</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <div class="container">
-            <h2 class="section-title">FSBO Arizona FAQ</h2>
+            <h2 class="section-title">Frequently Asked Questions</h2>
             
             <div class="faq-grid">
                 <div class="faq-item">
-                    <h3>Is it legal to sell my home without a realtor in Arizona?</h3>
-                    <p>Yes, absolutely. Arizona law allows homeowners to sell their own property (For Sale By Owner). You're required to provide specific disclosures (SPDS), but FSBOOS provides all necessary forms and guidance.</p>
+                    <h3>How does FSBOOS make money?</h3>
+                    <p>We charge agents a platform fee (monthly subscription + small per-transaction fee). Sellers use the platform for free. Agents set their own rates and keep the majority of their commissions.</p>
                 </div>
                 
                 <div class="faq-item">
-                    <h3>Will buyer agents show my FSBO home?</h3>
-                    <p>Yes. When you list on the Arizona Regional MLS through FSBOOS, buyer agents see your listing just like any other. We offer the standard 2.5-3% buyer agent commission, so agents are incentivized to bring buyers.</p>
+                    <h3>Are FSBOOS agents licensed?</h3>
+                    <p>Yes, all agents on FSBOOS are fully licensed Arizona real estate professionals. We verify licenses and require professional liability insurance.</p>
                 </div>
                 
                 <div class="faq-item">
-                    <h3>How long does it take to sell a home without an agent in Arizona?</h3>
-                    <p>In Arizona's current market, FSBO homes sell in an average of 18-25 days — similar to agent-listed homes. The key is proper MLS exposure and competitive pricing, both of which FSBOOS provides.</p>
+                    <h3>What's the catch with discount agents?</h3>
+                    <p>No catch. These agents use FSBOOS technology to reduce overhead, allowing them to charge less while earning the same or more through higher volume. You get the same services for less.</p>
                 </div>
                 
                 <div class="faq-item">
-                    <h3>What do I need to disclose when selling by owner in Arizona?</h3>
-                    <p>Arizona requires a Seller Property Disclosure Statement (SPDS) and Lead-Based Paint Disclosure (for homes built before 1978). FSBOOS provides all required forms and instructions.</p>
+                    <h3>Can I negotiate with agents on FSBOOS?</h3>
+                    <p>Absolutely. Agents post their standard rates, but you can request custom proposals. Many sellers negotiate hybrid models or bundled services.</p>
                 </div>
                 
                 <div class="faq-item">
-                    <h3>Can I cancel my FSBO listing if I change my mind?</h3>
-                    <p>Yes, you can cancel your FSBOOS listing at any time with no penalties. However, we recommend giving it at least 30 days for full market exposure.</p>
+                    <h3>How do I become a FSBOOS agent?</h3>
+                    <p>Apply at fsboos.com/agents. We review your license, experience, and business model. Approved agents get full access to our white-label platform and seller network.</p>
                 </div>
                 
                 <div class="faq-item">
-                    <h3>Do I need a real estate attorney in Arizona?</h3>
-                    <p>Not required, but recommended for complex transactions. FSBOOS provides contract templates that comply with Arizona law. For most standard sales, our support is sufficient.</p>
+                    <h3>Is FSBOOS available outside Arizona?</h3>
+                    <p>Currently we serve Arizona only (Phoenix, Tucson, and all metro areas). Expansion to other markets coming in 2027.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Blog Preview -->
-    <section class="blog-preview">
-        <div class="container">
-            <h2 class="section-title">FSBO Arizona Guide & Resources</h2>
-            <p class="section-subtitle">Learn everything about selling your home without a realtor</p>
-            
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-image">📋</div>
-                    <h3><a href="/blog/how-to-sell-home-without-realtor-arizona.html">How to Sell a Home Without a Realtor in Arizona: Complete Guide</a></h3>
-                    <p>Step-by-step guide to selling your Arizona home by owner. From pricing to closing, everything you need to know.</p>
-                </article>
-                
-                <article class="blog-card">
-                    <div class="blog-image">💰</div>
-                    <h3><a href="/blog/arizona-fsbo-paperwork-requirements.html">Arizona FSBO Paperwork: What Forms You Need</a></h3>
-                    <p>Complete list of required disclosures and contracts for selling by owner in Arizona, plus where to get them.</p>
-                </article>
-                
-                <article class="blog-card">
-                    <div class="blog-image">📸</div>
-                    <h3><a href="/blog/fsbo-closing-costs-arizona.html">Arizona FSBO Closing Costs: What to Expect</a></h3>
-                    <p>Understand all the costs involved when selling without an agent. Title fees, transfer taxes, and more.</p>
-                </article>
-            </div>
-            
-            <div class="blog-cta">
-                <a href="/blog.html" class="btn btn-secondary">View All FSBO Guides</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h2>Ready to Sell Without a Realtor?</h2>
-                    <p>Get started with Arizona's #1 flat fee FSBO service. Save thousands and keep control of your sale.</p>
-                    
-                    <div class="contact-methods">
-                        <a href="tel:+14805550199" class="contact-method">
-                            <span class="icon">📞</span>
-                            <div>
-                                <strong>Call or Text</strong>
-                                <span>(480) 555-0199</span>
-                            </div>
-                        </a>
-                        
-                        <a href="mailto:support@fsboos.com" class="contact-method">
-                            <span class="icon">✉️</span>
-                            <div>
-                                <strong>Email</strong>
-                                <span>support@fsboos.com</span>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="guarantee">
-                        <h4>🏆 FSBOOS Guarantee</h4>
-                        <p>If your home doesn't sell in 6 months, we'll extend your listing for free. No questions asked.</p>
-                    </div>
+            <div class="contact-cta">
+                <h2>Ready to Transform Real Estate?</h2>
+                <p>Join the platform that's changing how Arizona buys and sells homes</p>
+                <div class="cta-buttons">
+                    <a href="/for-sellers.html" class="btn btn-primary btn-large">I'm Selling a Home</a>
+                    <a href="/for-agents.html" class="btn btn-secondary btn-large">I'm a Real Estate Agent</a>
                 </div>
-                
-                <form class="contact-form" action="#" method="POST">
-                    <h3>Get Your Free FSBO Consultation</h3>
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="address">Property Address</label>
-                        <input type="text" id="address" name="address" placeholder="123 Main St, Phoenix, AZ">
-                    </div>
-                    <div class="form-group">
-                        <label for="value">Estimated Home Value</label>
-                        <select id="value" name="value">
-                            <option value="">Select range...</option>
-                            <option value="250-350">$250,000 - $350,000</option>
-                            <option value="350-500">$350,000 - $500,000</option>
-                            <option value="500-750">$500,000 - $750,000</option>
-                            <option value="750-1M">$750,000 - $1,000,000</option>
-                            <option value="1M+">$1,000,000+</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">Get Started - $2,995 Flat Fee</button>
-                    <p class="form-note">No obligation. Free consultation. Only pay when you list.</p>
-                </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -444,41 +383,36 @@
                         <span class="logo-icon">🏠</span>
                         <span class="logo-text">FSBO<span class="highlight">OS</span></span>
                     </a>
-                    <p>Arizona's leading flat fee MLS listing service. Helping homeowners sell without a realtor since 2020.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="Twitter">🐦</a>
-                    </div>
+                    <p>The operating system for modern real estate. Connecting Arizona agents and sellers since 2020.</p>
                 </div>
                 
                 <div class="footer-links">
-                    <h4>FSBO Resources</h4>
-                    <a href="/blog/how-to-sell-home-without-realtor-arizona.html">How to Sell Without Realtor</a>
-                    <a href="/blog/arizona-fsbo-paperwork-requirements.html">Arizona FSBO Paperwork</a>
-                    <a href="/blog/fsbo-closing-costs-arizona.html">Closing Costs</a>
-                    <a href="/blog.html">All FSBO Guides</a>
+                    <h4>For Sellers</h4>
+                    <a href="/for-sellers.html">How It Works</a>
+                    <a href="/pricing-sellers.html">Pricing</a>
+                    <a href="/agents.html">Find an Agent</a>
+                    <a href="/blog.html">Seller Resources</a>
                 </div>
                 
                 <div class="footer-links">
-                    <h4>Cities We Serve</h4>
-                    <a href="/blog/sell-home-without-realtor-phoenix.html">Phoenix FSBO</a>
-                    <a href="/blog/sell-home-without-realtor-tucson.html">Tucson FSBO</a>
-                    <a href="/blog/sell-home-without-realtor-mesa.html">Mesa FSBO</a>
-                    <a href="/blog/sell-home-without-realtor-scottsdale.html">Scottsdale FSBO</a>
+                    <h4>For Agents</h4>
+                    <a href="/for-agents.html">Agent Platform</a>
+                    <a href="/white-label.html">White-Label Sites</a>
+                    <a href="/agent-pricing.html">Pricing</a>
+                    <a href="/agent-apply.html">Apply to Join</a>
                 </div>
                 
                 <div class="footer-links">
-                    <h4>Contact</h4>
-                    <p>📞 (480) 555-0199</p>
-                    <p>✉️ support@fsboos.com</p>
-                    <p>🌵 Serving All of Arizona</p>
+                    <h4>Company</h4>
+                    <a href="/about.html">About FSBOOS</a>
+                    <a href="/contact.html">Contact</a>
+                    <a href="/privacy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2026 FSBOOS. All rights reserved. | <a href="/privacy.html">Privacy Policy</a> | <a href="/terms.html">Terms of Service</a></p>
-                <p class="disclaimer">FSBOOS is a licensed Arizona real estate broker. This site provides general information and is not legal advice.</p>
+                <p>&copy; 2026 FSBOOS. All rights reserved. | Connecting Arizona agents & sellers</p>
             </div>
         </div>
     </footer>

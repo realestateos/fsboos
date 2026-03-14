@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Arizona Home & Save Thousands | FSBOOS for Sellers</title>
+    <meta name="description" content="Sell your Arizona home and save $15,000-$25,000. Connect with discount real estate agents offering 1-2% commission or flat fee MLS listings. Free to list.">
+    <meta name="keywords" content="sell home Arizona save commission, discount real estate agents Arizona, flat fee MLS Arizona, low commission real estate Arizona, sell house Phoenix cheap">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">🏠</span>
+                <span class="logo-text">FSBO<span class="highlight">OS</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="/for-sellers.html" class="active">For Sellers</a>
+                <a href="/for-agents.html">For Agents</a>
+                <a href="/agents.html">Find an Agent</a>
+                <a href="/blog.html">Resources</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Open menu">☰</button>
+        </div>
+    </nav>
+
+    <section class="hero seller-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">💰 Save $15,000-$25,000</div>
+                <h1>Sell Your Arizona Home for <span class="highlight">Less Commission</span></h1>
+                <p class="hero-subtitle">Connect with top-rated discount real estate agents in Phoenix, Tucson, and all of Arizona. Full service at 1-2% commission or flat fee MLS options.</p>
+                
+                <div class="savings-calculator-large">
+                    <h3>Calculate Your Savings</h3>
+                    <div class="calc-row">
+                        <label>Home Value:</label>
+                        <input type="range" id="homeValue" min="200000" max="1500000" step="25000" value="500000">
+                        <span class="calc-value" id="valueDisplay">$500,000</span>
+                    </div>
+                    <div class="savings-comparison">
+                        <div class="savings-option">
+                            <span class="option-label">Traditional 6% Agent</span>
+                            <span class="option-cost" id="tradCost">$30,000</span>
+                        </div>
+                        <div class="savings-option winner">
+                            <span class="option-label">FSBOOS Agent (1.5%)</span>
+                            <span class="option-cost" id="fsboCost">$7,500</span>
+                        </div>
+                        <div class="savings-total">
+                            <span>YOU SAVE</span>
+                            <span class="savings-amount" id="savingsAmount">$22,500</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#agent-match" class="btn btn-primary btn-large">Connect With Discount Agents - FREE</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works-sellers">
+        <div class="container">
+            <h2 class="section-title">How Selling With FSBOOS Works</h2>
+            
+            <div class="steps-horizontal">
+                <div class="step-item">
+                    <div class="step-icon">📝</div>
+                    <h3>1. List Your Home (Free)</h3>
+                    <p>Tell us about your property and what you're looking for in an agent. Takes 2 minutes.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-item">
+                    <div class="step-icon">📨</div>
+                    <h3>2. Get Agent Offers</h3>
+                    <p>Pre-screened discount agents send you their proposals: rates, services, experience.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-item">
+                    <div class="step-icon">🤝</div>
+                    <h3>3. Choose Your Agent</h3>
+                    <p>Compare offers, interview agents, pick the best fit. No obligation, no pressure.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-item">
+                    <div class="step-icon">🎉</div>
+                    <h3>4. Sell & Save</h3>
+                    <p>Your agent handles everything. You save thousands at closing. Simple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-options">
+        <div class="container">
+            <h2 class="section-title">Choose Your Selling Approach</h2>
+            
+            <div class="options-grid">
+                <div class="option-card">
+                    <div class="option-badge popular">Most Popular</div>
+                    <h3>💼 Discount Full-Service Agent</h3>
+                    <div class="option-rate">1% - 2%</div>
+                    <p class="option-desc">Listing Commission</p>
+                    
+                    <ul class="option-features">
+                        <li>✓ Professional photography</li>
+                        <li>✓ MLS listing & marketing</li>
+                        <li>✓ Showings coordination</li>
+                        <li>✓ Offer negotiation</li>
+                        <li>✓ Contract-to-close support</li>
+                        <li>✓ Everything a 6% agent does</li>
+                    </ul>
+                    
+                    <p class="option-savings">Save $15,000-$22,500</p>
+                    <a href="#agent-match" class="btn btn-primary btn-full">Find a 1-2% Agent</a>
+                </div>
+                
+                <div class="option-card">
+                    <h3>🏷️ Flat Fee MLS</h3>
+                    <div class="option-rate">$2,995</div>
+                    <p class="option-desc">One-Time Fee</p>
+                    
+                    <ul class="option-features">
+                        <li>✓ Arizona MLS listing</li>
+                        <li>✓ Appear on Zillow, Realtor.com</li>
+                        <li>✓ Professional photos</li>
+                        <li>✓ Yard sign & lockbox</li>
+                        <li>✓ 6-month listing term</li>
+                        <li>✓ You handle showings/offers</li>
+                    </ul>
+                    
+                    <p class="option-savings">Save $20,000+</p>
+                    <a href="#flat-fee" class="btn btn-secondary btn-full">List for $2,995</a>
+                </div>
+                
+                <div class="option-card">
+                    <h3>🔄 Hybrid Model</h3>
+                    <div class="option-rate">Custom</div>
+                    <p class="option-desc">Mix & Match Services</p>
+                    
+                    <ul class="option-features">
+                        <li>✓ Choose your services</li>
+                        <li>✓ à la carte pricing</li>
+                        <li>✓ MLS + limited support</li>
+                        <li>✓ Pay only for what you need</li>
+                        <li>✓ Flexible arrangements</li>
+                        <li>✓ Negotiate with agents</li>
+                    </ul>
+                    
+                    <p class="option-savings">Custom Savings</p>
+                    <a href="#agent-match" class="btn btn-secondary btn-full">Request Custom Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-agents">
+        <div class="container">
+            <h2 class="section-title">Top-Rated Discount Agents in Arizona</h2>
+            <p class="section-subtitle">These agents offer full service at 1-2% commission through FSBOOS</p>
+            
+            <div class="agents-list">
+                <div class="agent-row">
+                    <div class="agent-info">
+                        <div class="agent-avatar">SM</div>
+                        <div class="agent-details">
+                            <h3>Sarah Martinez</h3>
+                            <p>Phoenix & Scottsdale</p>
+                            <div class="agent-rating">⭐ 4.9 (127 reviews)</div>
+                        </div>
+                    </div>
+                    <div class="agent-offer">
+                        <span class="rate">1.5%</span>
+                        <span class="label">Listing Commission</span>
+                    </div>
+                    <div class="agent-stats">
+                        <span>156 homes sold</span>
+                        <span>12 days avg. time</span>
+                    </div>
+                    <a href="/agent/sarah-martinez.html" class="btn btn-primary">View Profile</a>
+                </div>
+                
+                <div class="agent-row">
+                    <div class="agent-info">
+                        <div class="agent-avatar">DC</div>
+                        <div class="agent-details">
+                            <h3>David Chen</h3>
+                            <p>Tucson & Oro Valley</p>
+                            <div class="agent-rating">⭐ 4.8 (89 reviews)</div>
+                        </div>
+                    </div>
+                    <div class="agent-offer">
+                        <span class="rate">$3,500</span>
+                        <span class="label">Flat Fee</span>
+                    </div>
+                    <div class="agent-stats">
+                        <span>89 homes sold</span>
+                        <span>18 days avg. time</span>
+                    </div>
+                    <a href="/agent/david-chen.html" class="btn btn-primary">View Profile</a>
+                </div>
+                
+                <div class="agent-row">
+                    <div class="agent-info">
+                        <div class="agent-avatar">JW</div>
+                        <div class="agent-details">
+                            <h3>Jennifer Walsh</h3>
+                            <p>Mesa, Gilbert, Chandler</p>
+                            <div class="agent-rating">⭐ 5.0 (156 reviews)</div>
+                        </div>
+                    </div>
+                    <div class="agent-offer">
+                        <span class="rate">1%</span>
+                        <span class="label">Listing Commission</span>
+                    </div>
+                    <div class="agent-stats">
+                        <span>203 homes sold</span>
+                        <span>14 days avg. time</span>
+                    </div>
+                    <a href="/agent/jennifer-walsh.html" class="btn btn-primary">View Profile</a>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="/agents.html" class="btn btn-secondary">View All 150+ Agents</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="agent-match" class="lead-form-section">
+        <div class="container">
+            <div class="form-layout">
+                <div class="form-content">
+                    <h2>Get Free Offers From Discount Agents</h2>
+                    <p>Tell us about your home and receive proposals from top-rated Arizona agents. No obligation. No pressure.</p>
+                    
+                    <ul class="form-benefits">
+                        <li>✓ Free to submit</li>
+                        <li>✓ Multiple agent offers</li>
+                        <li>✓ Compare rates & services</li>
+                        <li>✓ Only pay if you choose an agent</li>
+                    </ul>
+                </div>
+                
+                <form class="lead-form" action="#" method="POST">
+                    <h3>List Your Home (Free)</h3>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Property Address</label>
+                        <input type="text" id="address" name="address" placeholder="123 Main St, Phoenix, AZ" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="value">Estimated Value</label>
+                            <select id="value" name="value" required>
+                                <option value="">Select...</option>
+                                <option value="200-300">$200k - $300k</option>
+                                <option value="300-400">$300k - $400k</option>
+                                <option value="400-500">$400k - $500k</option>
+                                <option value="500-750">$500k - $750k</option>
+                                <option value="750+">$750k+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeline">Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select...</option>
+                                <option value="asap">ASAP</option>
+                                <option value="30">Within 30 days</option>
+                                <option value="60">1-2 months</option>
+                                <option value="90">3+ months</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Preferred Service Type</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="serviceType" value="full" checked>
+                                <span>Full Service (1-2%)</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="serviceType" value="flat">
+                                <span>Flat Fee MLS</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="serviceType" value="both">
+                                <span>Show Me Both</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full btn-large">Get Free Agent Offers</button>
+                    
+                    <p class="form-disclaimer">By submitting, you agree to our Terms and Privacy Policy. Agents may contact you.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-sellers">
+        <div class="container">
+            <h2 class="section-title">Arizona Sellers Who Saved Thousands</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="saved-badge">Saved $23,000</span>
+                    </div>
+                    <p>"We used FSBOOS to find Sarah Martinez who charged 1.5% instead of the 6% our previous agent wanted. Same service, $23,000 less. Unbelievable."</p>
+                    <div class="testimonial-author">
+                        <strong>Michael & Lisa R.</strong>
+                        <span>Scottsdale - Sold for $620,000</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="saved-badge">Saved $18,500</span>
+                    </div>
+                    <p>"Was skeptical about 'discount' agents but Jennifer Walsh was amazing. Sold our Mesa home in 11 days at 1% commission. Better than our last agent at 6%!"</p>
+                    <div class="testimonial-author">
+                        <strong>Robert K.</strong>
+                        <span>Mesa - Sold for $450,000</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <span class="saved-badge">Saved $31,000</span>
+                    </div>
+                    <p>"Our Paradise Valley home sold for $1.1M. Traditional agents wanted $66,000. We paid $35,000 through FSBOOS. That's serious money."</p>
+                    <div class="testimonial-author">
+                        <strong>Amanda T.</strong>
+                        <span>Paradise Valley - Sold for $1,100,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cities-served">
+        <div class="container">
+            <h2 class="section-title">Discount Agents in Every Arizona City</h2>
+            <div class="cities-grid">
+                <a href="/agents/phoenix.html" class="city-tile">Phoenix</a>
+                <a href="/agents/tucson.html" class="city-tile">Tucson</a>
+                <a href="/agents/mesa.html" class="city-tile">Mesa</a>
+                <a href="/agents/scottsdale.html" class="city-tile">Scottsdale</a>
+                <a href="/agents/chandler.html" class="city-tile">Chandler</a>
+                <a href="/agents/gilbert.html" class="city-tile">Gilbert</a>
+                <a href="/agents/tempe.html" class="city-tile">Tempe</a>
+                <a href="/agents/glendale.html" class="city-tile">Glendale</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-sellers">
+        <div class="container">
+            <h2 class="section-title">Seller FAQ</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Is this really free for sellers?</h3>
+                    <p>Yes! It costs nothing to list your home and receive agent offers. You only pay if you choose to work with an agent, and then you pay their commission at closing.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Are these discount agents any good?</h3>
+                    <p>Absolutely. These are experienced, licensed agents who use FSBOOS technology to reduce overhead. Many are former top producers at big brokerages. Check their reviews and sales history.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What's the difference between 1% and 6% agents?</h3>
+                    <p>The commission rate. Most services are identical: MLS listing, photos, showings, negotiation, contract handling. The discount comes from technology and volume, not service cuts.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I negotiate with agents?</h3>
+                    <p>Yes! Agents post their standard rates, but you can request custom proposals. Many sellers negotiate hybrid models or additional services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">
+                        <span class="logo-icon">🏠</span>
+                        <span class="logo-text">FSBO<span class="highlight">OS</span></span>
+                    </a>
+                    <p>Connecting Arizona sellers with discount agents.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Sellers</h4>
+                    <a href="/for-sellers.html">How It Works</a>
+                    <a href="/agents.html">Find an Agent</a>
+                    <a href="/blog.html">Resources</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Agents</h4>
+                    <a href="/for-agents.html">Join Platform</a>
+                    <a href="/white-label.html">White-Label</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FSBOOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
